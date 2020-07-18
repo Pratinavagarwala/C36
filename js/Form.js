@@ -31,8 +31,8 @@ class Form{
                 player.update();
                 player.updateCount(playerCount);
 
-                greet.html("Welcome " +player.name);
-                greet.position(130,160);
+                this.greet.html("Welcome " +player.name);
+                this.greet.position(130,160);
                 }
         )
     }
